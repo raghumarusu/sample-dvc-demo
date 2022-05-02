@@ -1,3 +1,4 @@
+
 create env
 
 ```bash
@@ -14,6 +15,25 @@ install the req
 ```bash
 pip install -r requirements.txt
 ```
+create template.py
+create directory data_given
+download the data from kaggle and copy to data_given
 
+```bash
+git init
+```
+```bash
+dvc init
+```
+```bash
+dvc add data.given/winequality.csv
+```
 
+```bash
+git add .
+```
+
+```bash
+git commit -m  "first commit"
+```
 
